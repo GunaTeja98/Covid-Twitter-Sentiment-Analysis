@@ -28,12 +28,12 @@ import utils
 
 # Get your twitter credentials from the environment variables.
 # These are set in the 'twitter-stream.json' manifest file.
-consumer_key = os.environ['CONSUMERKEY']
-consumer_secret = os.environ['CONSUMERSECRET']
-access_token = os.environ['ACCESSTOKEN']
-access_token_secret = os.environ['ACCESSTOKENSEC']
+consumer_key = os.environ['yOgCASUCPzXgpqvvh05YtQWi2']
+consumer_secret = os.environ['07e5kgLHwMGooGBdk5qbVy1pmxkA0UyJN8gJCBODy8LAo0p3sP']
+access_token = os.environ['1481078165782945794-A7jMug9CSr8kdkVxytAlTzYWVnupcN']
+access_token_secret = os.environ['6LJqMmAhFZkdcmok6eDbHw1onmSN8QrvLk9kKcaQRSQ4B']
 
-PUBSUB_TOPIC = os.environ['PUBSUB_TOPIC']
+PUBSUB_TOPIC = os.environ['data-inside']
 NUM_RETRIES = 3
 
 
@@ -94,13 +94,10 @@ if __name__ == '__main__':
     print 'stream mode is: %s' % os.environ['TWSTREAMMODE']
 
     stream = Stream(auth, listener)
-    # set up the streaming depending upon whether our mode is 'sample', which
-    # will sample the twitter public stream. If not 'sample', instead track
-    # the given set of keywords.
     # This environment var is set in the 'twitter-stream.yaml' file.
-    if os.environ['TWSTREAMMODE'] == 'sample':
+    if os.environ['TWSTREAMMODE'] == 'covid':
         stream.sample()
     else:
         stream.filter(
-                track=['covid']
+                track=['corona','virus']
                 )
