@@ -95,9 +95,9 @@ if __name__ == '__main__':
 
     stream = Stream(auth, listener)
     # This environment var is set in the 'twitter-stream.yaml' file.
-    if os.environ['TWSTREAMMODE'] == 'covid':
+    if os.environ['TWSTREAMMODE'] == 'sample':
         stream.sample()
     else:
         stream.filter(
-                track=['corona','virus']
+                track=['covid','corona','virus']
                 )
