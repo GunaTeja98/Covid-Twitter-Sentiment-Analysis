@@ -20,5 +20,5 @@ front end (though Kubernetes is great for those types of apps as well).
 Instead, it is designed to continously run a scalable data ingestion pipeline.
 Note that PubSub provides [guaranteed at-least-once message
 delivery](https://cloud.google.com/pubsub/overview#benefits).  This means that
-we might sometimes see a duplicated item, but as each tweet has a UID, that's
+we might sometimes see a duplicated item, but as each tweet has a UID, So, that's
 not an issue for this project.
