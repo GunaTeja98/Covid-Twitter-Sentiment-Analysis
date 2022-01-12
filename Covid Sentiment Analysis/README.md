@@ -1,6 +1,3 @@
-
-Copyright (C) 2014 Google Inc.
-
 # Covid real-time data analysis in Python using Kubernetes, PubSub, and BigQuery
 
 This Project uses the [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/) (GKE) and [BigQuery](https://cloud.google.com/bigquery/what-is-bigquery) to build a 'pipeline' to stream Twitter data, via [Google Cloud PubSub](https://cloud.google.com/pubsub/docs) using Python.
