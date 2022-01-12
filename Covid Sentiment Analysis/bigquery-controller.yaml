@@ -23,7 +23,7 @@ spec:
         # This the name of pubsub topic
         - name: data-inside
           value: projects/your-project/topics/your-topic
-        # This is the project ID.
+        # This is the project ID in GCP.
         - name: PROJECT_ID
           value: data-pro-337902
         # The two settings to the dataset and table.
