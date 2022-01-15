@@ -21,8 +21,8 @@ spec:
         - name: PROCESSINGSCRIPT
           value: twitter-to-pubsub
         # This is the name of pubsub topic
-        - name: data-inside
-          value: projects/your-project/topics/your-topic
+        - name: PUBSUB_TOPIC
+          value: projects/data-sane/topics/pstopic
         # The following four settings are the twitter credentials information.
         - name: CONSUMERKEY
           value: yOgCASUCPzXgpqvvh05YtQWi2
