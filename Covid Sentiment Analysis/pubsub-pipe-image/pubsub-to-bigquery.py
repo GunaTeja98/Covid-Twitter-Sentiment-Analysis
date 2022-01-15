@@ -26,8 +26,8 @@ import utils
 
 # Get the project ID and pubsub topic from the environment variables set in
 # the 'bigquery-controller.yaml' manifest.
-PROJECT_ID = os.environ['PROJECT_ID']
-PUBSUB_TOPIC = os.environ['PUBSUB_TOPIC']
+PROJECT_ID = data-sane
+PUBSUB_TOPIC = projects/data-sane/topics/pstopic
 NUM_RETRIES = 3
 
 
