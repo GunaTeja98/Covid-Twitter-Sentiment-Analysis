@@ -21,11 +21,11 @@ spec:
         - name: PROCESSINGSCRIPT
           value: pubsub-to-bigquery
         # This the name of pubsub topic
-        - name: data-inside
-          value: projects/your-project/topics/your-topic
+        - name: PUBSUB_TOPIC
+          value: projects/data-sane/topics/pstopic
         # This is the project ID in GCP.
         - name: PROJECT_ID
-          value: data-pro-337902
+          value: data-sane
         # The two settings to the dataset and table.
         - name: BQ_DATASET
           value: dsets
