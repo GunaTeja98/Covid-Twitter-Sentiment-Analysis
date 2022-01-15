@@ -33,7 +33,7 @@ consumer_secret = os.environ['07e5kgLHwMGooGBdk5qbVy1pmxkA0UyJN8gJCBODy8LAo0p3sP
 access_token = os.environ['1481078165782945794-A7jMug9CSr8kdkVxytAlTzYWVnupcN']
 access_token_secret = os.environ['6LJqMmAhFZkdcmok6eDbHw1onmSN8QrvLk9kKcaQRSQ4B']
 
-PUBSUB_TOPIC = os.environ['data-inside']
+PUBSUB_TOPIC = os.environ['data-sane']
 NUM_RETRIES = 3
 
 
